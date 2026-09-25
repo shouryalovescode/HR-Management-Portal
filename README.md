@@ -1,16 +1,80 @@
-# React + Vite
+# HR Management Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack HR Management Portal designed to streamline employee and HR operations through a centralized web application.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User Authentication
+- HR Dashboard
+- Employee Management
+- Department Management
+- Payroll Management
+- Leave Management
+- Recruitment Management
+- User Profile Management
+- Settings
+- Role-Based Access Control
+- Responsive User Interface
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React.js
+- JavaScript
+- Tailwind CSS
+- Vite
 
-## Expanding the ESLint configuration
+### Backend
+- Node.js
+- Express.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Database
+- PostgreSQL
+
+### Development Tools
+- Git
+- GitHub
+- VS Code
+
+## 📁 Project Structure
+
+```text
+HR-Management-Portal/
+│
+├── backend/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── routes/
+│   ├── db.js
+│   └── server.js
+│
+├── frontend/
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       └── routes/
+│
+├── .gitignore
+├── package.json
+└── README.md
+
+## 📸 Screenshots
+
+### Login
+![Login](screenshots/Login.png)
+
+### Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+### Analytics
+![Analytics](screenshots/Analytics.png)
+
+### Employee & Leave Management
+![Leave Management](screenshots/Leave%20Management.png)
+
+### Payroll
+![Payroll](screenshots/Payroll.png)
+
+### Recruitment
+![Recruitment](screenshots/Recruitment.png)
